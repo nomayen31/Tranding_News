@@ -7,6 +7,81 @@
     <title>The Globar News</title>
 </head>
 <body>
-    
+     <!-- Header Section -->
+     <header>
+        <section>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img class="logo-img" src="img/images.jpg">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-lg-0">
+                            <li class="nav-hover nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">News</a>
+                            </li>
+                            <li class="nav-hover nav-item mx-4">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href=""><img class="profile-img" src="img/Profile.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <hr>
+                <!-- Catagories  -->
+                <div class="container">
+                    <ul id="catagories" class="scrollmenu">
+                    </ul>
+                </div>
+        
+                <!-- Msg item -->
+                <div>
+                    <h3 class="text-bold custom-bg my-4 p-2 text-center" id="alert"><span id="hf">0</span> Items found on this
+                        Categories</h3>
+                </div>
+                <!-- Msg item end -->
+                
+                <!-- Sort -->
+                <section class="container mt-5">
+                    <div class="row g-2">
+                        <div class="d-flex justify-content-between btn-flex">
+                            <div class="d-flex">
+                                <div>
+                                    <p class="fw-bold">Sort By View:</p>
+                                </div>
+                                <div>
+                                    <div class="dropdown sort-btn">
+                                        <a class="btn btn-secondary dropdown-toggle custom-bg border-0" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Default
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" type="button">Latest</a></li>
+                                            <li><a class="dropdown-item" type="button">Popular</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex trending-btn">
+                                <div class="mx-4">
+                                    <button type="button" class="btn custom-bg">Today's Pick</button>
+        
+                                </div>
+                                <div>
+                                    <button type="button" class="btn bg-custom-outline">Trending</button>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+        
 </body>
 </html>

@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Globar News</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="">
+        <!-- Title -->
+        <title>The Globar News</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Css -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;800&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    
 <body>
-     <!-- Header Section -->
+     <!-- Header Section start  -->
      <header>
         <section>
             <nav class="navbar navbar-expand-lg">
@@ -48,9 +64,9 @@
                     <h3 class="text-bold custom-bg my-4 p-2 text-center" id="alert"><span id="hf">0</span> Items found on this
                         Categories</h3>
                 </div>
-                <!-- Msg item end -->
+                <!-- Msg section end -->
                 
-                <!-- Sort -->
+                
                 <section class="container mt-5">
                     <div class="row g-2">
                         <div class="d-flex justify-content-between btn-flex">
@@ -82,6 +98,61 @@
                             </div>
                         </div>
                 </section>
+
+            </header>
+
+            <!-- Main Section -->
+        
+            <main>
+                <!-- API News start -->
+                <section class="container mt-5">
+                    <div id="new-container">
+        
+                        <!-- News Content will here from API -->
+        
+                    </div>
+        
+                </section>
+                <!--API News End  -->
+            </main>
+            <!-- Loader  -->
+            <section class="d-none" id="loader">
+                <div class="d-flex justify-content-center">
+                    <div class="spinner-grow text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <div class="spinner-grow text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <div class="spinner-grow text-danger" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <div class="spinner-grow text-warning" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <div class="spinner-grow text-info" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+            </section>
+        
+        
+            <!-- footer Section  -->
+            <footer class="bg-black">
+                <section>
+                    <h3 class="text-center fs-5 text-light pt-4"> Copyright &copy; 2022 The Global News</h3>
+                </section>
+            </footer>
+        
+        
+            <!-- Bootstrap Bundle -->
+            <script src="css/bootstrap.bundle.min.js"></script>
+            <!-- Js link  -->
+            <script src="js/app.js"></script>
+        
+        </body>
+        
+        </html>
         
 </body>
 </html>

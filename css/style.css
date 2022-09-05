@@ -71,8 +71,11 @@ footer p{
 
 
 
-
-
+.navbar-collapse {
+	flex-basis: 100%;
+	flex-grow: 0;
+	align-items: center;
+}
 
 
 

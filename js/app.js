@@ -154,4 +154,15 @@ const categoriesItem = item => {
     toggleLoader(false);
 }
 
-
+const toggleLoader = load => {
+    const loadSection = document.getElementById('loader');
+    if (load) {
+        loadSection.classList.remove('d-none');
+    } else {
+        loadSection.classList.add('d-none');
+    }
+}
+//load categories 
+loadCategories();
+//display id  
+displayId(8);
